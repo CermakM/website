@@ -19,25 +19,39 @@ weight = 5
 # :param icon: icon from /images/illustrations/icons
 
 [[tile]]
-  title = "App builder"
-  text = "This is some explanatory text that is on two rows"
-  buttonText = "Free trial"
-  url = '/'
-  icon = 'mouse-globe'
-
-[[tile]]
-  title = "Cloud integration"
+  title = "Kebechet"
   text = "This is some explanatory text that is on two rows"
   buttonText = "Get started"
   url = '/'
-  icon = "laptop-cloud"
+  icon = 'plug-cloud'
 
 [[tile]]
-  title = "Add-ons & plugins"
+  title = "Sesheta"
   text = "This is some explanatory text that is on two rows"
   buttonText = "Get started"
   url = '/'
-  icon = "plug-cloud"
+  icon = 'plug-cloud'
+
+[[tile]]
+  title = "<app bot>"
+  text = "This is some explanatory text that is on two rows"
+  buttonText = "Get started"
+  url = '/'
+  icon = 'plug-cloud'
+
+[[tile]]
+  title = "<documentation bot>"
+  text = "This is some explanatory text that is on two rows"
+  buttonText = "Get started"
+  url = '/'
+  icon = 'plug-cloud'
+
+[[tile]]
+  title = "<drive bot>"
+  text = "This is some explanatory text that is on two rows"
+  buttonText = "Get started"
+  url = '/'
+  icon = 'plug-cloud'
 +++
 
 <!-- Additional content (not applicable for all widgets)-->

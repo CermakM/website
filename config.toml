@@ -123,39 +123,51 @@ copyright = "&copy; 2018"
   icon = 'user'
   title = 'User'
   weight = 1
-
 [[menu.sidebar]]
   name = 'profile'
   parent = 'user'
   title = 'Profile'
   url = '/'
-  weight = -1
-
+  weight = -10
 [[menu.sidebar]]
   name = 'acount'
   parent = 'user'
   title = 'Account'
   url = '/'
-  weight = -2
-
+  weight = -5
 [[menu.sidebar]]
   name = 'settings'
   parent = 'user'
   title = 'Settings'
   url = '/'
-  weight = -3
+  weight = -1
 
 [[menu.sidebar]]
-  name = 'advisor'
-  title = 'Advisor'
+  name = 'cyborgs'
+  title = 'Cyborgs'
   weight = 2
+[[menu.sidebar]]
+  name = 'kebechet'
+  parent = 'cyborgs'
+  title = 'Kebechet'
+  weight = -10
+[[menu.sidebar]]
+  name = 'sesheta'
+  parent = 'cyborgs'
+  title = 'Sesheta'
+  weight = -5
 
 [[menu.sidebar]]
-  name = 'analysis'
-  title = 'Analysis'
+  name = 'adviser'
+  title = 'Adviser'
   weight = 3
 
 [[menu.sidebar]]
-  name = 'bots'
-  title = 'Bots'
+  name = 'solver'
+  title = 'Solver'
   weight = 4
+
+[[menu.sidebar]]
+  name = 'analyzer'
+  title = 'Analyzer'
+  weight = 5
