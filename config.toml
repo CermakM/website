@@ -2,7 +2,7 @@ baseURL = '/'
 languageCode = 'en-us'
 
 # Title of your site
-title = "Thoth Management"
+title = "Thoth Station"
 
 # Hugo theme
 theme = 'hugo-fresh'
@@ -46,7 +46,7 @@ copyright = "&copy; 2018"
   [params.sidebar]
     visible = true
     # Logo (from /images/logos/)
-    logo = 'fresh-square'
+    logo = 'fresh-square.svg'
 
 
   [[params.docs]]  # TODO

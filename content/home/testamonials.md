@@ -1,23 +1,23 @@
 +++
 # Showcase widget.
-widget = "clients"
+widget = "testamonials"
 active = true
 
 # Title and subtitle
-title = 'Clients'
-subtitle = "People talk about us!"
+title = 'Reputation. Good so far.'
+subtitle = "People told about us ..."
 
 # Order that this section will appear in (if applicable).
 weight = 30
 
 # Clients
-# Add client by appending new `[[client]]` specifications.
+# Add client by appending new `[[quote]]` specifications.
 # :param company
 # :param name
 # :param job
 # :param quote
 # :param face: icon/image from /images/illustrations/faces
-[[client]]
+[[quote]]
   company = "Red Hat"
   name = "Fridolindo"
   job = "Coding Machine"
@@ -26,7 +26,7 @@ weight = 30
   """
   face = 1
 
-[[client]]
+[[quote]]
   company = "Red Hat"
   name = "Christophero"
   job = "OpenShift Guru"
