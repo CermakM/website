@@ -1,0 +1,4 @@
+[submodule "themes/hugo-fresh"]
+	path = themes/hugo-fresh
+	url = https://github.com/CermakM/hugo-fresh.git
+	branch = master

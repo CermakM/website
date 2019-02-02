@@ -1,0 +1,161 @@
+baseURL = '/'
+languageCode = 'en-us'
+
+# Title of your site
+title = "Thoth Management"
+
+# Hugo theme
+theme = 'hugo-fresh'
+
+# Your copyright notice - appears in site footer.
+# To display a copyright symbol, type `&copy;`.
+copyright = "&copy; 2018"
+
+[params]
+
+  [params.font]
+    name = "Open Sans"
+    sizes = [400,600]
+
+  [params.hero]
+    # Main hero title
+    title = "Automate. Manage."
+    # Hero subtitle (optional)
+    subtitle = "Automate and manage your development cycle."
+    # Button text
+    buttontext = "Get started"
+    # Where the main hero button links to
+    buttonlink = "#"
+    # Hero image (from /images/___)
+    image = 'illustrations/worker.svg'
+
+  # Footer logos (from /images/logos/clients/)
+  [params.clients]
+    clientlogos = ['systek', 'tribe', 'kromo', 'infinite', 'gutwork']
+
+  [params.navbar]
+    # add custom navbar logo
+    # example: logo = 'fresh-square'
+    # Logo (from /images/logos/)
+    visible = true
+
+    [params.navbar.button]
+      title = 'Sign up'
+      url = '/'
+
+  [params.sidebar]
+    visible = true
+    # Logo (from /images/logos/)
+    logo = 'fresh-square'
+
+
+  [[params.docs]]  # TODO
+  [[params.blogroll]]  # TODO
+  [[params.product]]  # TODO
+
+  # Social media links (GitHub, Twitter, etc.). All are optional.
+  # Add custom social resources by appending `[[params.social]]`
+  # :param url
+  # :param icon
+  # Icons are from Font Awesome  # TODO: allow custom icons
+  [[params.social]]
+    url = "https://github.com/thoth-station"
+    icon = "github"
+
+  [[params.social]]
+    url = "https://twitter.com/thothstation"
+    icon = "twitter"
+
+  # Footer parameters
+  [params.footer]
+    # Logo (from /images/logos/___)
+    logo = 'fresh-white-alt.svg'
+    bulmalogo = true
+
+# ---
+# Main navigation menu
+# ---
+[[menu.main]]
+  name = 'about'
+  title = 'About'
+  url = '/'
+  weight = 1
+
+[[menu.main]]
+  name = 'showcase'
+  title = 'Showcase'
+  url = '/'
+  weight = 2
+
+[[menu.main]]
+  name = 'repositories'
+  title = 'Repositories'
+  weight = 3
+
+[[menu.main]]
+  name = 'resources'
+  title = 'Resources'
+  weight = 100
+
+[[menu.main]]
+  name = 'documentation'
+  parent = 'resources'
+  title = 'Documentation'
+  weight = -3
+
+[[menu.main]]
+  name = 'faq'
+  parent = 'resources'
+  title = 'FAQ'
+  weight = -1
+
+[[menu.main]]
+  name = 'login'
+  title = 'Login'
+  url = '/'
+  weight = 110
+
+# ---
+# Sidebar navigation menu
+# ---
+[[menu.sidebar]]
+  name = 'user'
+  icon = 'user'
+  title = 'User'
+  weight = 1
+
+[[menu.sidebar]]
+  name = 'profile'
+  parent = 'user'
+  title = 'Profile'
+  url = '/'
+  weight = -1
+
+[[menu.sidebar]]
+  name = 'acount'
+  parent = 'user'
+  title = 'Account'
+  url = '/'
+  weight = -2
+
+[[menu.sidebar]]
+  name = 'settings'
+  parent = 'user'
+  title = 'Settings'
+  url = '/'
+  weight = -3
+
+[[menu.sidebar]]
+  name = 'advisor'
+  title = 'Advisor'
+  weight = 2
+
+[[menu.sidebar]]
+  name = 'analysis'
+  title = 'Analysis'
+  weight = 3
+
+[[menu.sidebar]]
+  name = 'bots'
+  title = 'Bots'
+  weight = 4
