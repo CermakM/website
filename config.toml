@@ -21,7 +21,7 @@ copyright = "&copy; 2019"
   # Link custom assets relative to /static
   # TODO: they are not loaded yet
   custom_css = ['custom.css', 'github-markdown.css']
-  custom_js  = ['main.js', 'modal.js']
+  custom_js  = []
 
   [params.font]
     name = "Open Sans"
