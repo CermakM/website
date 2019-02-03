@@ -18,6 +18,11 @@ copyright = "&copy; 2019"
 
   email = "macermak@redhat.com"
 
+  # Link custom assets relative to /static
+  # TODO: they are not loaded yet
+  custom_css = ['custom.css', 'github-markdown.css']
+  custom_js  = ['main.js', 'modal.js']
+
   [params.font]
     name = "Open Sans"
     sizes = [400,600]
@@ -40,8 +45,9 @@ copyright = "&copy; 2019"
 
   [params.navbar]
     # add custom navbar logo
-    # example: logo = 'fresh-square'
-    # Logo (from /images/logos/)
+    # example: logo = 'fresh-square.png' (from /images/logos/)
+    # NOTE: the logo will be scaled to 112 x 28 to fit the theme
+    logo = 'thoth-station.png'
     visible = true
 
     [params.navbar.button]
