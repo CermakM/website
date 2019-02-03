@@ -53,10 +53,26 @@ copyright = "&copy; 2019"
     # Logo (from /images/logos/)
     logo = 'fresh-square.svg'
 
+  # Footer columns setup
+  # Add each column by appaneding [[params.footbar.column]]
+  # Add each item within the column by appending [[params.footbar.column.item]]
+  [params.footbar]  # TODO
 
-  [[params.docs]]  # TODO
-  [[params.blogroll]]  # TODO
-  [[params.product]]  # TODO
+    [[params.footbar.column]]
+      title = "Product"
+      [[params.footbar.column.item]]
+        text = "<sample>"
+        link = '/'
+    [[params.footbar.column]]
+      title = "Docs"
+      [[params.footbar.column.item]]
+        text = "<sample>"
+        link = '/'
+    [[params.footbar.column]]
+      title = "Blogroll"
+      [[params.footbar.column.item]]
+        text = "<sample>"
+        link = '/'
 
   # Social media links (GitHub, Twitter, etc.). All are optional.
   # Add custom social resources by appending `[[params.social]]`
