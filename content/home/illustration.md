@@ -11,10 +11,11 @@ subtitle = "Get yourself a Cyborg."
 weight = 15
 
 # Image
-# :param url: image from /images/illustrations/
+# :param src: image from /images/illustrations/
+# :param link
 # TODO: more parameters
 [image]
-  url = 'mockups/app-mockup.png'
+  src = 'mockups/app-mockup.png'
 
 # Button
 # :param text
