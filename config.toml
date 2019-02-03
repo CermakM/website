@@ -9,9 +9,14 @@ theme = 'hugo-fresh'
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2018"
+copyright = "&copy; 2019"
 
 [params]
+
+  author = "Marek Cermak <macermak>"
+  maintainers = ["Marek Cermak <macermak>"]
+
+  email = "macermak@redhat.com"
 
   [params.font]
     name = "Open Sans"

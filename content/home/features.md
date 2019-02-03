@@ -1,5 +1,5 @@
 +++
-# Showcase widget.
+# Features widget.
 widget = "featurette_paragraph"
 active = true
 

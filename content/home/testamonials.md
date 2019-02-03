@@ -1,5 +1,5 @@
 +++
-# Showcase widget.
+# Testamonials widget.
 widget = "testamonials"
 active = true
 
