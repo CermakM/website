@@ -21,7 +21,7 @@ weight = 15
 # :param text
 # :param link
 [button]
-  text = "I want one of your Cyborgs!"
+  text = "Aight. Gimme a Cyborg!"
   link = '/'
 +++
 

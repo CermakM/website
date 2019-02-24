@@ -1,6 +1,15 @@
 +++
-identifier = "kebechet"
+# Card widget.
+widget = "modal-card"
+active = true
+
+identifier = 'kebechet-readme'
+
+# Title and subtitle
+title = 'Kebechet'
 +++
+
+<!-- Additional content (not applicable for all widgets)-->
 
 Kebechet
 --------

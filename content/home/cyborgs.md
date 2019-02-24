@@ -19,27 +19,36 @@ weight = 5
 # :param button: Tile.Button object
 
 # Tile.Button
-# :param modal: whether button points to modal data [true, false], default false
+# :param modal: if specified, which modal to use [card, steps]
 # :param link: (not applicable for modal buttons)
 # :param data: data for the modal card, if not provided, identifier is used
 # :param target: target for the modal card, if not provided, identifier is used
 
 [[tile]]
   identifier = 'kebechet'
+  modal = true
   title = "Kebechet"
   text = "This is some explanatory text that is on two rows"
   icon = 'plug-cloud.svg'
   [tile.button]
-    modal = true
+    marker = 'success'
+    target = "kebechet-setup"
+    text = "GET STARTED"
+  [tile.label]
+    target = 'kebechet-readme'
     text = "README"
 
 [[tile]]
   identifier = 'sesheta'
+  modal = true
   title = "Sesheta"
   text = "This is some explanatory text that is on two rows"
   icon = 'plug-cloud.svg'
   [tile.button]
-    modal = true
+    marker = 'success'
+    text = "GET STARTED"
+  [tile.label]
+    target = 'sesheta-readme'
     text = "README"
 
 [[tile]]
@@ -49,7 +58,8 @@ weight = 5
   icon = 'plug-cloud.svg'
   [tile.button]
     link = '/'
-    text = "README"
+    marker = 'warning'
+    text = "TBD"
 
 [[tile]]
   identifier = 'docbot'
@@ -58,7 +68,8 @@ weight = 5
   icon = 'plug-cloud.svg'
   [tile.button]
     link = '/'
-    text = "README"
+    marker = 'warning'
+    text = "TBD"
 
 [[tile]]
   identifier = 'gbot'
@@ -67,7 +78,8 @@ weight = 5
   icon = 'plug-cloud.svg'
   [tile.button]
     link = '/'
-    text = "README"
+    marker = 'warning'
+    text = "TBD"
 +++
 
 <!-- Additional content (not applicable for all widgets)-->

@@ -1,5 +1,12 @@
 +++
-identifier = 'sesheta'
+# Card widget.
+widget = "modal-card"
+active = true
+
+identifier = 'sesheta-readme'
+
+# Title and subtitle
+title = 'Sesheta'
 +++
 
 # Sesheta

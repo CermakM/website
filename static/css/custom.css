@@ -9,3 +9,9 @@
 .modal-card {
   max-height: 75%;
 }
+
+.card-title > button.label {
+  position: absolute;
+  top: 1.25em;
+  left: -30px;
+}
